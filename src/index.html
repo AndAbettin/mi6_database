@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MI6</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left_bar" id="left_bar">
+
+            <div class="seal">
+                <img src="img/mi6-seal.png" alt="MI6 Seal">
+            </div>
+
+            <div class="nav">
+                <p class="nav__item toggle" id="home_nav" onClick="currentToggle('home_nav')">
+                    <a href="">Home</a>
+                </p>
+                <p class="nav__item" id="poi_nav" onClick="currentToggle('poi_nav')">
+                    <a href="">People of Interest</a>
+                </p>
+            </div>
+
+            <div class="hider">
+                <button onClick="hideLeftBar()" id="hider">
+                    < </button>
+            </div>
+
+        </div>
+
+        <div class="right_main">
+            <h1>Welcome to MI6</h1>
+        </div>
+
+    </div>
+</body>
+
+</html>
